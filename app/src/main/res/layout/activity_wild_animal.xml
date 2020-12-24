@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    tools:context="com.aman.tilak.myapplication.Wild_animal">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="45dp">
+
+            <EditText
+                android:id="@+id/animal_name_wild_id"
+                android:layout_width="252dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="36dp"
+                android:hint="Animal name"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/authority_click_wild_animal_id" />
+
+            <EditText
+                android:id="@+id/animal_type_wild_id"
+                android:layout_width="252dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="28dp"
+                android:hint="Animal type"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/animal_name_wild_id" />
+
+            <EditText
+                android:id="@+id/animal_problem_wild_id"
+                android:layout_width="252dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="28dp"
+                android:hint="Animal problem"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/animal_type_wild_id" />
+
+            <TextView
+                android:id="@+id/animal_wild_getlocation_id"
+                android:layout_width="117dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="36dp"
+                android:text="Get Location"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@+id/set_location_wild_id"
+                app:layout_constraintTop_toBottomOf="@+id/animal_problem_wild_id" />
+
+            <TextView
+                android:id="@+id/set_location_wild_id"
+                android:layout_width="165dp"
+                android:layout_height="102dp"
+                android:layout_marginStart="4dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/authority_mobile_no_wild_id"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/animal_problem_wild_id"
+                app:layout_constraintVertical_bias="0.166" />
+
+            <EditText
+                android:id="@+id/authority_type_wild_id"
+                android:layout_width="252dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="16dp"
+                android:hint="Authority type"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/set_location_wild_id" />
+
+            <EditText
+                android:id="@+id/authority_mobile_no_wild_id"
+                android:layout_width="252dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="16dp"
+                android:hint="Authority mobile number"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.509"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/authority_type_wild_id" />
+
+            <EditText
+                android:id="@+id/authority_email_id_wild_id"
+                android:layout_width="256dp"
+                android:layout_height="76dp"
+                android:layout_marginTop="8dp"
+                android:hint="Authority email id"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.516"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/authority_mobile_no_wild_id" />
+
+            <TextView
+                android:id="@+id/authority_click_wild_animal_id"
+                android:layout_width="136dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="16dp"
+                android:text="Click photo"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/send_wild_id"
+                android:layout_width="255dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="1dp"
+                android:background="#8BC34A"
+                android:text="Send"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.515"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/authority_email_id_wild_id"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav" />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

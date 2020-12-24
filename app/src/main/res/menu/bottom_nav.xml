@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/back"
+        android:icon="@drawable/ic_back"
+        android:title="Back" />
+
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/ic_camera"
+        android:title="Camera" />
+
+    <item
+        android:id="@+id/domestic"
+        android:icon="@drawable/ic_domestic_"
+        android:title="Domestic" />
+
+    <item
+        android:id="@+id/wild"
+        android:icon="@drawable/ic_wild"
+        android:title="Wild" />
+
+
+
+</menu>

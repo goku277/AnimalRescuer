@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_enhancer"
+    tools:context="com.aman.tilak.myapplication.Signin">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="79dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="96dp"
+        android:drawableLeft="@drawable/ic_signin"
+        android:text="Signin"
+        android:textColor="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/username_signin_id"
+        android:layout_width="283dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:height="40dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableLeft="@drawable/ic_username"
+        android:hint="Username"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/password_signin_id"
+        android:layout_width="283dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableLeft="@drawable/ic_password"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username_signin_id" />
+
+
+    <Button
+        android:id="@+id/continue_signin_id"
+        android:layout_width="283dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="Continue"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_signin_id" />
+
+    <TextView
+        android:id="@+id/new_to_the_mission_id"
+        android:layout_width="266dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="New to the mission? Create Account"
+        android:textColor="#000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/continue_signin_id" />
+
+    <TextView
+        android:id="@+id/emergency_call_signin_id"
+        android:layout_width="151dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="16dp"
+        android:text="Emergency call"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_to_the_mission_id" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
